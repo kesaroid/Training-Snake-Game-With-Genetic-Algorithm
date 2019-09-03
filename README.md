@@ -1,4 +1,5 @@
-Forked from TheAILearner -----
+## Improvement over the original
+#### Forked from TheAILearner
 
 Traditional snake game involves the walls to be the limit, while growing up I used to play the snake game where the walls act as a portal to the other side.
 Small aforementioned tweaks to the algorithm improves the chromosomes and the fitness function.
