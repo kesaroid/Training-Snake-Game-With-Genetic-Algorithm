@@ -1,5 +1,5 @@
-from Snake_Game import *
-from Feed_Forward_Neural_Network import *
+from snake_game import *
+from Neural_Network import *
 
 def run_game_with_ML(display, clock, weights):
     max_score = 0
@@ -41,8 +41,7 @@ def run_game_with_ML(display, clock, weights):
             button_direction = generate_button_direction(new_direction)
 
             next_step = snake_position[0] + current_direction_vector
-            if collision_with_boundaries(snake_position[0]) == 1 or collision_with_self(next_step.tolist(),
-                                                                                        snake_position) == 1:
+            if collision_with_self(next_step.tolist(), snake_position) == 1:
                 score1 += -150
                 break
 
