@@ -1,5 +1,5 @@
-from Genetic_Algorithm import *
-from Snake_Game import *
+from genetic_algorithm import *
+from snake_game import *
 
 # n_x -> no. of input units
 # n_h -> no. of units in hidden layer 1
